@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: url(image/bg.jpg) repeat-y;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    overflow: auto;
+    overflow-y: hidden;
+    background: #fff;
+}
+
+#top_slider {
+    width: 154px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#menu {
+    float: right;
+    margin-top: -45px;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    float: left;
+    text-align: center;
+    padding: 20px 20px 20px 0px;
+}
+
+#top_image{
+    width: 100%;
+}
+
+#content-top{
+    border: 1px solid red;
+    height: 100px;
+    width: 260px;
+    float: left;
+}
